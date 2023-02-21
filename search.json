@@ -1,0 +1,205 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Econometrics",
+    "section": "",
+    "text": "Preface\nEconometrics is a powerful tool for analyzing economic data, testing economic theories, and making informed policy decisions. It has become an essential component of modern economics, as it allows economists to use data to quantify the relationships between economic variables and to make predictions about future economic outcomes.\nThis book is designed to provide an introduction to econometrics for students and practitioners who want to use econometric techniques to analyze economic data. The book assumes that the reader has a basic understanding of statistics, calculus, and linear algebra, and it builds on this foundation to introduce the fundamental concepts and techniques of econometrics.\nThe book is organized into three parts. Part I introduces the basic principles of econometrics, including estimation, hypothesis testing, and regression analysis. Part II covers more advanced topics, including time series analysis, panel data analysis, and instrumental variables. Part III provides a practical guide to econometric software, including Stata and R.\nThroughout the book, we emphasize the importance of understanding the assumptions underlying econometric models, and we provide numerous examples and exercises to help readers develop their econometric skills. We also discuss the limitations and potential pitfalls of econometric analysis, and we provide guidance on how to avoid common mistakes.\nIn writing this book, our goal has been to provide a clear, accessible, and comprehensive introduction to econometrics that will be useful for students and practitioners alike. We hope that readers will find this book to be a valuable resource in their studies and in their work as economists."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Financial Returns",
+    "section": "",
+    "text": "2 One-period simple return\n\\[\nR_{t}[1]=\\frac{P_t-P_{t-1}}{P_{t-1}}\n\\]\nwhere\n\n\\(R_{t}[1]\\) is the One period simple return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)\n\n\n\n3 One-period log return\n\\[\nR_{t}^*[1]=ln \\left( \\frac{P_t}{P_{t-1}} \\right)=p_t-p_{t-1}\n\\]\nwhere\n\n\\(R_{t}^*[1]\\) is the One period log return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)\n\\(p_t=ln(P_t)\\)\n\\(p_{t-1}=ln(P_{t-1})\\)\n\n\n\n4 Simple and log return\nProof that simple return equals log-return when the simple return is closes to 0. \\[\nR_{t}^*=ln \\left( \\frac{P_t}{P_{t-1}} \\right)\n=ln \\left(1+ \\left( \\frac{P_t}{P_{t-1}}-1 \\right) \\right)\n= ln \\left(1+ \\left( \\frac{P_t-P_{t-1}}{P_{t-1}} \\right) \\right)\n= ln \\left(1+R_t \\right)\n\\approx R_t\n\\]\n\n\n5 K periods log return\n\\[\nR_t[k]=\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]\nThe proof of the last equation is possible since multiplication becomes addition\n\\[\nR_t[k]=ln \\left(\\frac{P_t}{P_{t-k}} \\right)\n=ln \\left(\\frac{P_t}{P_{t-1}} \\times \\frac{P_{t-1}}{P_{t-2}} \\times ... \\times \\frac{P_{t-k+2}}{P_{y-k+1}} \\times \\frac{P_{t-k+1}}{P_{y-k}}  \\right) =\\sum_{j=0}^{k-1} ln \\left( \\frac{P_{t-j}}{P_ {t-j-1}} \\right) =\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "intro.html#one-period-simple-return",
+    "href": "intro.html#one-period-simple-return",
+    "title": "1  Financial Returns",
+    "section": "1.1 One-period simple return",
+    "text": "1.1 One-period simple return\n\\[\nR_{t}[1]=\\frac{P_t-P_{t-1}}{P_{t-1}}\n\\]\nwhere\n\n\\(R_{t}[1]\\) is the One period simple return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)"
+  },
+  {
+    "objectID": "intro.html#one-period-log-return",
+    "href": "intro.html#one-period-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.2 One-period log return",
+    "text": "1.2 One-period log return\n\\[\nR_{t}^*[1]=ln \\left( \\frac{P_t}{P_{t-1}} \\right)=p_t-p_{t-1}\n\\]\nwhere\n\n\\(R_{t}^*[1]\\) is the One period log return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)\n\\(p_t=ln(P_t)\\)\n\\(p_{t-1}=ln(P_{t-1})\\)"
+  },
+  {
+    "objectID": "intro.html#simple-and-log-return",
+    "href": "intro.html#simple-and-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.3 Simple and log return",
+    "text": "1.3 Simple and log return\nProof that simple return equals log-return when the simple return is closes to 0. \\[\nR_{t}^*=ln \\left( \\frac{P_t}{P_{t-1}} \\right)\n=ln \\left(1+ \\left( \\frac{P_t}{P_{t-1}}-1 \\right) \\right)\n= ln \\left(1+ \\left( \\frac{P_t-P_{t-1}}{P_{t-1}} \\right) \\right)\n= ln \\left(1+R_t \\right)\n\\approx R_t\n\\]"
+  },
+  {
+    "objectID": "intro.html#k-periods-log-return",
+    "href": "intro.html#k-periods-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.4 K periods log return",
+    "text": "1.4 K periods log return\n\\[\nR_t[k]=\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]\nThe proof of the last equation is possible since multiplication becomes addition\n\\[\nR_t[k]=ln \\left(\\frac{P_t}{P_{t-k}} \\right)\n=ln \\left(\\frac{P_t}{P_{t-1}} \\times \\frac{P_{t-1}}{P_{t-2}} \\times ... \\times \\frac{P_{t-k+2}}{P_{y-k+1}} \\times \\frac{P_{t-k+1}}{P_{y-k}}  \\right) =\\sum_{j=0}^{k-1} ln \\left( \\frac{P_{t-j}}{P_ {t-j-1}} \\right) =\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]"
+  },
+  {
+    "objectID": "fr.html#one-period-simple-return",
+    "href": "fr.html#one-period-simple-return",
+    "title": "1  Financial Returns",
+    "section": "1.1 One-period simple return",
+    "text": "1.1 One-period simple return\n\\[\nR_{t}[1]=\\frac{P_t-P_{t-1}}{P_{t-1}}\n\\]\nwhere\n\n\\(R_{t}[1]\\) is the One period simple return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)"
+  },
+  {
+    "objectID": "fr.html#one-period-log-return",
+    "href": "fr.html#one-period-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.2 One-period log return",
+    "text": "1.2 One-period log return\n\\[\nR_{t}^*[1]=ln \\left( \\frac{P_t}{P_{t-1}} \\right)=p_t-p_{t-1}\n\\]\nwhere\n\n\\(R_{t}^*[1]\\) is the One period log return from \\(t-1\\) to \\(t\\)\n\\(P_t\\) is the asset price at time \\(t\\)\n\\(P_{t-1}\\) is the asset price at time \\(t-1\\)\n\\(p_t=ln(P_t)\\)\n\\(p_{t-1}=ln(P_{t-1})\\)"
+  },
+  {
+    "objectID": "fr.html#simple-and-log-return",
+    "href": "fr.html#simple-and-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.3 Simple and log return",
+    "text": "1.3 Simple and log return\nProof that simple return equals log-return when the simple return is closes to 0. \\[\nR_{t}^*=ln \\left( \\frac{P_t}{P_{t-1}} \\right)\n=ln \\left(1+ \\left( \\frac{P_t}{P_{t-1}}-1 \\right) \\right)\n= ln \\left(1+ \\left( \\frac{P_t-P_{t-1}}{P_{t-1}} \\right) \\right)\n= ln \\left(1+R_t \\right)\n\\approx R_t\n\\]"
+  },
+  {
+    "objectID": "fr.html#k-periods-log-return",
+    "href": "fr.html#k-periods-log-return",
+    "title": "1  Financial Returns",
+    "section": "1.4 K periods log return",
+    "text": "1.4 K periods log return\n\\[\nR_t[k]=\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]\nThe proof of the last equation is possible since multiplication becomes addition\n\\[\nR_t[k]=ln \\left(\\frac{P_t}{P_{t-k}} \\right)\n=ln \\left(\\frac{P_t}{P_{t-1}} \\times \\frac{P_{t-1}}{P_{t-2}} \\times ... \\times \\frac{P_{t-k+2}}{P_{y-k+1}} \\times \\frac{P_{t-k+1}}{P_{y-k}}  \\right) =\\sum_{j=0}^{k-1} ln \\left( \\frac{P_{t-j}}{P_ {t-j-1}} \\right) =\\sum_{j=0}^{k-1} R_{t-j}[1]\n\\]"
+  },
+  {
+    "objectID": "tvm.html#future-value-capitalization",
+    "href": "tvm.html#future-value-capitalization",
+    "title": "2  Time Value of Money",
+    "section": "2.1 Future Value (Capitalization)",
+    "text": "2.1 Future Value (Capitalization)\nIn this section, we will look at how to capitalize a single amount. Capitalization allows us to determine the future value of an amount of money invested today at a specified rate. Here are the parameters we will use:\n\n\\(P_0=\\) Amount invested in \\(t=0\\)\n\\(r=\\) Periodic interest rate received on the investment\n\\(n=\\) Period during which the initial amount is invested\n\\(P_n=\\) Future value of our investment \\(P_0\\) in \\(t=n\\)\n\nHere is the equation allowing us to find the future value of our investment: \\[\nP_n=P_0 \\times (1+r)^n\n\\]"
+  },
+  {
+    "objectID": "tvm.html#present-value-discounting",
+    "href": "tvm.html#present-value-discounting",
+    "title": "2  Time Value of Money",
+    "section": "2.2 Present Value (Discounting)",
+    "text": "2.2 Present Value (Discounting)\nIn this section, we’ll look at how to discount a single amount. Discounting allows us to determine the present value of an amount of money that we will receive in the future. Here are the parameters we will use:\n\n\\(P_0=\\) Amount to be received in the future in today’s value (\\(t = 0\\)), i.e. the present value\n\\(r=\\) Periodic interest rate in effect in the economy\n\\(n=\\) Number of periods before the amount is received.\n\\(P_n=\\) Nominal amount to be received in the future (\\(t=n\\))\n\nHere is the equation for us to find the present value of an amount to be received in the future.\n\\[\nP_0=\\frac{P_n}{(1+r)^n}\n\\]"
+  },
+  {
+    "objectID": "tvm.html#annuity",
+    "href": "tvm.html#annuity",
+    "title": "2  Time Value of Money",
+    "section": "2.3 Annuity",
+    "text": "2.3 Annuity\nAn annuity is simply a series of identical payments received at constant intervals during a specified period.\n\n\\(A\\)$ represents the payment received in each period\n\\(n\\) represents the number of payments the annuity will pay\n\n\n2.3.1 Future value of a regular annuity\nThe future value of a regular annuity, will give us the value of the sum of all flows \\(A\\$\\) capitalized at \\(t = n\\). \\(VF_{P_n}\\) will be the notation we will use for the future value of a regular annuity. The following equation shows how to get the future value of our regular annuity.\n\\[\nVF_{P_n} = A \\times (1+r)^{n-1}+A \\times (1+r)^{n-2}+....+A \\times (1+r)^{1}+A \\times (1+r)^{0}\n\\]\nIf the number of periods \\(n\\) is relatively small, it will be easy to calculate the future value. However, if we have a large number of \\(n\\) periods, the following formula is more convenient.\n\\[\nVF_{P_n}=A \\left[\\frac{(1+r)^n-1}{r} \\right]\n\\]\nKnowing the following parameters:\n\n\\(VF_{P_n}=\\) Future value of a regular annuity\n\\(A=\\) constant cash flow received in each period\n\\(n=\\) Number of cash flow that will be paid in this regular annuity\n\\(r=\\) current periodic interest rate\n\n\n\n2.3.2 Present value of a regular annuity\nThe present value of a regular annuity will give us the value of the sum of all the flows \\(A\\$\\) discounted in \\(t = 0\\). \\(VP_{P_0}\\) will be the notation we will use for the present value of a regular annuity. The following equation shows how to get the present value of our regular annuity.\n\\[\nVP_{P_0} = \\frac{A}{(1+r)^{1}}+\\frac{A}{(1+r)^{2}}+....+\\frac{A}{(1+r)^{n-1}}+\\frac{A}{(1+r)^{n}}\n\\]\nIf the number of periods \\(n\\) is relatively small, it will be easy to calculate the present value. However, if we have a large number of \\(n\\) periods, the following formula is more convenient.\n\\[\nVP_{P_0}=A \\left[ \\frac{1-\\frac{1}{(1+r)^n}}{r} \\right]\n\\]\nKnowing the following parameters:\n\n\\(VP_{P_0}=\\) Present value of a regular annuity\n\\(A=\\) constant cash flow received in each period\n\\(n=\\) Number of cash flow that will be paid in this regular annuity\n\\(r=\\) current periodic interest rate"
+  },
+  {
+    "objectID": "rv.html#expected-value-and-the-mean",
+    "href": "rv.html#expected-value-and-the-mean",
+    "title": "3  Randam Variables",
+    "section": "3.1 Expected value and the mean",
+    "text": "3.1 Expected value and the mean\nWe assume that a random variable \\(Y\\), can take \\(k\\) possible values.\n\\[\ny_1, y_2, y_3, ......, y_{k-1},y_k\n\\]\nWhere \\(y_1\\) represents the first possible value for \\(Y\\), \\(y_2\\) represents the second possible value for \\(Y\\), up to \\(y_k\\) representing the \\(K^{th}\\) possible value for \\(Y\\). Each of the possible values will be associated with a probability that it is the value taken by \\(Y\\). More precisely, the probability that \\(Y = y_1\\) will be presented by \\(p_1\\), the probability that \\(Y = y_2\\) will be presented by \\(p_2\\) and so on. By having all the possible values as well as its respective probability for our random variable Y, it is possible for us to find the expected value of \\(Y\\), represented by \\(E(Y)\\).\n\\[\n\\mu_Y=E(Y) = y_1 p_1 + y_2 p_2 + \\cdots + y_k p_k = \\sum_{i=1}^k y_i p_i\n\\]"
+  },
+  {
+    "objectID": "rv.html#variance-and-standard-deviation",
+    "href": "rv.html#variance-and-standard-deviation",
+    "title": "3  Randam Variables",
+    "section": "3.2 Variance and standard-deviation",
+    "text": "3.2 Variance and standard-deviation\nGiven that we have found the expected value of Y, we will be able to find its variance, represented by \\(Var(Y)\\).\n\\[\n\\text{Var}(Y) = E\\left[(Y-\\mu_Y)^2\\right] = \\sum_{i=1}^k (y_i - \\mu_Y)^2 p_i\n\\]\nThen we can find the standard deviation of Y by taking the square root of our variance. \\[\n\\sigma_Y=\\sqrt{\\sigma_Y^2}=\\sqrt{Var(y)}\n\\]"
+  },
+  {
+    "objectID": "rv.html#continuous-random-variable",
+    "href": "rv.html#continuous-random-variable",
+    "title": "3  Randam Variables",
+    "section": "3.3 Continuous Random Variable",
+    "text": "3.3 Continuous Random Variable\nIf the random variable Y is continuous, we can also find its expectation and its variance. A random variable will always be associated with a probability density function. In the case of our random variable Y, its probability density function will be represented by \\(f_Y (y)\\). The probability that\n\\(Y\\) falls between \\(a\\) and \\(b\\) is found as follows. \\[\nP(a \\leq Y \\leq b) = \\int_a^b f_Y(y) \\mathrm{d}y\n\\] An important property of the probability density function is that the set of possible probabilities must add up to 1.\n\\[\nP(-\\infty \\leq Y \\leq \\infty) = 1\n\\]\n\\[\n\\int_{-\\infty}^{\\infty} f_Y(y) \\mathrm{d}y = 1\n\\]\nWe can therefore define the expectation of our random variable \\(Y\\) as follows. \\[\nE(Y) =  \\mu_Y = \\int y f_Y(y) \\mathrm{d}y.\n\\] As well as its variance\n\\[\n\\text{Var}(Y) =  \\sigma_Y^2 = \\int (y - \\mu_Y)^2 f_Y(y) \\mathrm{d}y.\n\\]"
+  },
+  {
+    "objectID": "rv.html#normal-distribution",
+    "href": "rv.html#normal-distribution",
+    "title": "3  Randam Variables",
+    "section": "3.4 Normal distribution",
+    "text": "3.4 Normal distribution\nThe normal distribution is one of the best known and used given its simplicity. Indeed, it can be completely characterized by its mean \\(\\mu\\) and its variance \\(\\sigma^2\\). Usually it is represented as follows. \\[\n\\mathcal{N}(\\mu,\\sigma^2)\n\\]\nThe probability density function of a normal distribution is represented by the following equation.\n\\[\nf(x) = \\frac{1}{\\sqrt{2 \\pi} \\sigma} \\exp{-(x - \\mu)^2/(2 \\sigma^2)}.\n\\]"
+  },
+  {
+    "objectID": "slr.html",
+    "href": "slr.html",
+    "title": "4  Simple Linear Regression",
+    "section": "",
+    "text": "The intuition behind a simple linear regression model is simply to relate two variables having a theoretical economic relationship. The model will allow us to check whether this relation is also reflected empirically. Whether in economics or finance, there are several asset pricing models with a strong theoretical foundation that are not reflected empirically. The best example is the Capital Asset Pricing Model (CAPM), linking the risk premium of the market portfolio with the risk premium of an individual security. The theoretical model can therefore be represented as follows: \\[\nE(R_i)=R_f+\\beta_{i,m} [E(R_m)-R_f]\n\\]\nWhere * \\(\\beta_{i,m}\\) represents a measure of the systematic risk of the asset * \\(E(R_m)\\) represents the expected profitability on the market * \\(R_f\\) represents the risk free interest rate * \\(E(R_i)\\) represents the expected profitability on asset \\(i\\)\nSince we are going to want to estimate this model empirically, we will use the realized values for the return on asset i, the market and the risk-free rate. The empirical format of the CAPM can therefore be represented as follows: \\[\n(R_i-R_f)=\\alpha+\\beta(R_m-R_f)+\\epsilon\n\\]\nWhere\n\n\\((R_i-R_f)\\) represents the dependent variable (we seek to explain the variation of this variable)\n\\((R_m-R_f)\\) represents the independent variable(we will use this variable to explain the independent variable)\n\\(\\alpha\\) is the coefficient estimating the proportion of the excess return on the asset \\(i\\) which is unexplained by the systematic risk\n\\(\\beta\\) is the coefficient estimating the proportion of the excess return on the asset \\(i\\) which is explained by the systematic risk\n\\(\\epsilon\\) represents the error in our model, that is, the variations in return related to idiosyncratic risk.\n\nThis is a specific example of a simple linear regression model and this specification is by no means exhaustive. To have a uniform notation, the simple linear regression model will be represented as follows:\n\\[\ny_i=\\beta_0+\\beta_1x_i+e_i\n\\] Where\n\n\\(y_i\\) represents the dependent variable for the observation \\(i\\)\n\\(x_i\\) represents the independent variable for the observation \\(i\\)\n\\(\\beta_0\\) represents the intercept estimator of our model\n\\(\\beta_1\\) represents the slope estimator of our model\n\\(\\epsilon_i\\) represents the error made by the model\n\nThe error term \\(\\epsilon_i\\) represents the difference between the actual value of our dependent variable and its estimated value. If our model is correctly specified then the error term should not contain any structure linking it to our dependent variable. In other words, the error term \\(\\epsilon_i\\) must be independent and identically distributed random variable with mean zero and constant variance \\(\\sigma^2\\).\n\\[\n\\epsilon \\sim iid(0,\\sigma^2)\n\\]\nSince the error term is a random variable then, the dependent variable is also a random variable with the following expectation:\n\\[\nE(y_i)=E[\\beta_0+\\beta_1x_i+\\epsilon_i]=E(\\beta_0+\\beta_1x_i)+E(\\epsilon_i) =\\beta_0+\\beta_1x_i\n\\]\nAs for the variance of our dependent variable, we find it as follows:\n\\[\nVar(y_i)=Var[\\beta_0+\\beta_1x_i+\\epsilon_i]\n=Var(\\beta_0+\\beta_1x_i)+Var(\\epsilon_i)\n=Var(\\epsilon_i)\n=\\sigma^2\n\\]"
+  },
+  {
+    "objectID": "ols.html",
+    "href": "ols.html",
+    "title": "5  Ordinary Least Squares estimation",
+    "section": "",
+    "text": "In this chapter we present a way to obtain a value for our coefficient of the simple linear regression model. We start with the ordinary least squares estimation method. This value will be found by minimizing the sum of the squared errors of our regression. We can express the error term as follows : \\[\n\\epsilon_i=y_i-\\beta_0+\\beta_1x_i\n\\]\nThen we perform a summation for all the observations of our squared error term going from \\(1\\) to \\(n\\), i.e. the sum of the squared errors \\(S(\\beta_0,\\beta_1)\\).\n\\[\nS(\\beta_0,\\beta_1)=\\sum_{i=1}^n\\epsilon_i^2=\\sum_{i=1}^n(y_i-\\beta_0+\\beta_1 x_i)^2\n\\]\nThen we will minimize \\(S(\\beta_0,\\beta_1)\\) with respect to \\(\\beta_0\\) and \\(\\beta_1\\). The partial derivatives with respect to \\(\\beta_0\\) is solved as follows.\n\\[\n\\frac{\\partial S(\\beta_0,\\beta_1)}{\\partial \\beta_0}=-2\\sum_{i=1}^n(y_i-\\beta_0-\\beta_1 x_i)\n\\]\nThe partial derivatives with respect to \\(\\beta_1\\) is solved as follows.\n\\[\n\\frac{\\partial S(\\beta_0,\\beta_1)}{\\partial \\beta_1}=-2\\sum_{i=1}^n(y_i-\\beta_0-\\beta_1 x_i)x_i\n\\]\nThe first order condition makes it possible to equalize our two partial derivative at 0 and we can thus find the solution.\n\\[\n\\frac{\\partial S(\\beta_0,\\beta_1)}{\\partial \\beta_0}=0\n\\]\n\\[\n\\frac{\\partial S(\\beta_0,\\beta_1)}{\\partial \\beta_1}=0\n\\]\nThe solution for the \\(\\beta_0\\) estimator is as follows:\n\\[\\hat{\\beta_0}=\\overline{y}-\\beta_1 \\overline{x}\\]\nProof: \\[\n-2\\sum_{i=1}^n(y_i-\\beta_0-\\beta_1 x_i)=0\n\\]\nWe can set the following properties :\n\n\\(\\sum_{i=1}^ny_i=n \\overline{y}\\)\n\\(\\sum_{i=1}^n \\beta_0=n \\beta_0\\)\n\\(\\sum_{i=1}^n \\beta_1 x_i=n \\beta_1 \\overline{x}\\)\n\n\\[\nn\\overline{y}-n \\beta_0-n \\beta_1 \\overline{x}=0\n\\]\n\\[\n\\beta_0=\\frac{n\\overline{y}-n \\beta_1 \\overline{x}}{n}\n\\]\n\\[\n\\beta_0=\\overline{y}-\\beta_1 \\overline{x}\n\\]\nThe solution for the \\(\\beta_1\\) estimator is as follows:\n\\[\\hat{\\beta_1}=\\frac{(x_i-\\overline{x})(y_i-\\overline{y})}{(x_i-\\overline{x})^2}\\]\nProof:\n\\[\n-2\\sum_{i=1}^n(y_i-\\beta_0-\\beta_1 x_i)x_i=0\n\\]\n\\[\n-2\\sum_{i=1}^n(y_i-(\\overline{y}-\\beta_1 \\overline{x})-\\beta_1 x_i)x_i=0\n\\]\n\\[\n\\sum_{i=1}^nx_iy_i-n \\overline{y} \\overline{x}+n \\beta_1 \\overline{x}^2-\\beta_1\\sum_{i=1}^nx_i^2=0\n\\]\n\\[\n\\sum_{i=1}^nx_iy_i-n \\overline{y} \\overline{x}=\\beta_1\\sum_{i=1}^nx_i^2-n \\beta_1 \\overline{x}^2\n\\]\n\\[\n\\sum_{i=1}^nx_iy_i-n \\overline{y} \\overline{x}=\\beta_1\\left(\\sum_{i=1}^nx_i^2-n \\overline{x}^2\\right)\n\\]\n\\[\n\\beta_1=\\frac{\\sum_{i=1}^nx_iy_i-n \\overline{y} \\overline{x}}{\\sum_{i=1}^nx_i^2-n \\overline{x}^2}\n\\]\nWe can set the following properties :\n\n\\(\\sum_{i=1}^nx_iy_i-n \\overline{y} \\overline{x}=(x_i-\\overline{x})(y_i-\\overline{y})\\)\n\\(\\sum_{i=1}^nx_i^2-n \\overline{x}^2=(x_i-\\overline{x})^2\\)\n\n\\[\n\\beta_1=\\frac{(x_i-\\overline{x})(y_i-\\overline{y})}{(x_i-\\overline{x})^2}\n\\]"
+  },
+  {
+    "objectID": "gf.html",
+    "href": "gf.html",
+    "title": "6  Godness of Fit",
+    "section": "",
+    "text": "In this chapter, we will present a measure allowing us to quantify the quality of our regression. We will start with the following three definitions:\n\nTotal Sum of Squares \\[SST=\\sum_{i=1}^n(y_i-\\overline{y})^2\\]\nRegression Sum of Squares\n\n\\[SSR=\\sum_{i=1}^n(\\hat{y}_i-\\overline{y})^2\\]\n\nError Sum of Squares:\n\n\\[SSE=\\sum_{i=1}^n(\\hat{y}_i-y_i)^2\\]\nThe last three definitions can be related in the following equation:\n\\[\n\\sum_{i=1}^n(y_i-\\overline{y})^2=\\sum_{i=1}^n(\\hat{y}_i-\\overline{y})^2+\\sum_{i=1}^n(\\hat{y}_i-y_i)^2\n\\]\nOr in an equivalent way\n\\[\nSST=SSR+SSE\n\\]\nOne of the most used measures is the coefficient of determination \\(R^2\\) which can be found as follows:\n\\[\nR^2=\\frac{SSR}{SST}=1-\\frac{SSE}{SST}\n\\]\nMoreover, by construction, \\(R^2\\) will take a value between o and 1.\n\\[R^2 \\in (0,1)\\]"
+  },
+  {
+    "objectID": "mlr.html",
+    "href": "mlr.html",
+    "title": "7  Multiple Linear Regression",
+    "section": "",
+    "text": "In this chapter, we’ll apply the ordinary least-squares method again, but this time if we have more than one independent variable. Here is a regression model with several variables.\n\\[\ny=\\beta_0+\\beta_1 x_1+\\beta_2 x_2i+...+\\beta_N X_Ni+\\epsilon\n\\]\nTo simplify the model, we will now use the matrix format. Here is the change regarding the variables\n\\[Y=\\begin{pmatrix}\ny_1\\\\\ny_2\\\\\n\\vdots\\\\\ny_n\\\\\n\\end{pmatrix}\\]\n\\[\\beta=\\begin{pmatrix}\n\\beta_1\\\\\n\\beta_2\\\\\n\\vdots\\\\\n\\beta_n\\\\\n\\end{pmatrix}\\]\n\\[\\epsilon=\\begin{pmatrix}\n\\epsilon_1\\\\\n\\epsilon_2\\\\\n\\vdots\\\\\n\\epsilon_n\\\\\n\\end{pmatrix}\\]\n\\[X=\\begin{bmatrix}\n1&x_11  &x_31  &\\cdots   &x_n1 \\\\\n1&x_12  &\\cdots  & \\cdots &x_n2 \\\\\n1& \\vdots  & \\vdots  & \\vdots  & \\\\\n1&x_1m  & \\cdots & \\cdots &x_nm\n\\end{bmatrix}\\]\nThis allows us to rewrite the model in a simplified way\n\\[\nY=X'\\beta+\\epsilon\n\\]\nThe solution for the matrix \\(\\beta\\) estimator is as follows:\n\\[\\hat{\\beta}=(X'X)^{-1}X'Y\\] Proof:\nFind the estimator by minimizing the sum of squared residuals \\((\\epsilon' \\epsilon)\\)\n\\[\n\\epsilon'\\epsilon=(Y-X'\\beta)'(Y-X'\\beta)\n= Y'Y-\\beta'X'Y-Y'X \\beta + \\beta'X'X \\beta\n= Y'Y -2 \\beta' X'Y+ \\beta'X'X \\beta\n\\]\nThe partial derivatives with respect to \\(\\beta_1\\) is solved as follows :\n\\[\n\\frac{\\partial \\epsilon'\\epsilon}{\\partial \\beta}= -2X'Y+2X'X \\beta\n\\]\nBy taking the first order condition we can equalize the value of the partial derivative to zero.\n\\[\n\\frac{\\partial \\epsilon'\\epsilon}{\\partial \\beta}= 0\n\\]\nIt is now possible for us to find the value of \\(\\beta\\)\n\\[\n-2X'Y+2X'X \\beta=0\n\\]\n\\[\nX'Y=X'X \\beta\n\\]\n\\[\n\\hat{\\beta}=(X'X)^{-1}X'Y\n\\]"
+  },
+  {
+    "objectID": "aols.html#unbiasedness-of-ols",
+    "href": "aols.html#unbiasedness-of-ols",
+    "title": "8  Assumption of OLS Estimators",
+    "section": "8.1 Unbiasedness of OLS",
+    "text": "8.1 Unbiasedness of OLS\n\\[\n\\hat{\\beta}\n=(X'X)^{-1}X'Y  \\\\\n=(X'X)^{-1}X'(X \\beta+\\epsilon) \\\\\n=(X'X)^{-1}X'X \\beta +(X'X)^{-1}X' \\epsilon \\\\\n=\\beta+(X'X)^{-1}E(X'\\epsilon)\n\\]\nSince \\(E[\\epsilon \\mid X]=0\\), the OLS estimator is unbiased. \\[\nE[\\hat{\\beta}]=\\beta\n\\]"
+  },
+  {
+    "objectID": "aols.html#variance-of-ols-estimators",
+    "href": "aols.html#variance-of-ols-estimators",
+    "title": "8  Assumption of OLS Estimators",
+    "section": "8.2 Variance of OLS Estimators",
+    "text": "8.2 Variance of OLS Estimators\n\\[\nVar(\\hat{\\beta})=Var[\\beta+(X'X)^{-1}X' \\epsilon]  \n=Var[(X'X)^{-1}X' \\epsilon] \\\\\n=E[(X'X)^{-1}X'\\epsilon \\epsilon' X(X'X)^{-1}]\\\\\n=(X'X)^{-1}X'E(\\epsilon \\epsilon') X(X'X)^{-1}\\\\\n=(X'X)^{-1}X'\\sigma^2 X(X'X)^{-1}\n\\]\nSince \\((X'X)^{-1}(X'X)=1\\)\n\\[\nVar(\\hat{\\beta})=\\sigma^2(X'X)^{-1}\n\\]"
+  },
+  {
+    "objectID": "aols.html#assumption-of-the-classical-linear-regression-model",
+    "href": "aols.html#assumption-of-the-classical-linear-regression-model",
+    "title": "8  Assumption of OLS Estimators",
+    "section": "8.3 Assumption of the Classical Linear Regression Model",
+    "text": "8.3 Assumption of the Classical Linear Regression Model\n\nLinearity: The model specifies a linear relationship between y and x\n\n\\[y=X \\beta+\\epsilon\\]\n\nFull rank : There is no exact linear relationship among any of the independent variables in the model.\nExogeneity of the independent variables : This means that the independent variables will not carry useful information for prediction of \\(\\epsilon\\).\n\n\\[$E[\\epsilon \\mid X]=0\\]\n\nHomoscedasticity and nonautocorrelation : \\(\\epsilon\\) has the same finite variance.\n\n\\[E[\\epsilon'\\epsilon \\mid X]=\\sigma^2 I\\]\n\nData generation : X may be fixed or random.\nNormal distribution : The disturbances are normally distributed.\n\n\\[\\epsilon \\mid X \\sim N(0,\\sigma^2 I)\\]"
+  },
+  {
+    "objectID": "mle.html",
+    "href": "mle.html",
+    "title": "9  Maximum Likelihood",
+    "section": "",
+    "text": "In this chapter, we will derive the estimator of the Maximum likelihood which will be identical to that of ordinary least squares. Let us again pose the simple linear regression model.\n\\[\nY=X'\\beta +\\epsilon\n\\]\nGiven that our error term follows a normal distribution of mean zero and variance \\(\\sigma^2\\), then we can justify the following likelihood function.\n\\[\n\\begin{aligned}\n\\mathcal{L}(\\boldsymbol{\\beta}, \\sigma^2 | \\mathbf{y}, \\mathbf{X}) = \\dfrac{1}{(2 \\pi)^{N/2} (\\sigma^2)^{N/2}} \\exp \\left[ -\\dfrac{1}{2} \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right)' \\left( \\sigma^2  \\mathbf{I}\\right)^{-1} \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right)\\right]\n\\end{aligned}\n\\]\nIn order to simplify the resolution of the problem, the use of log-likelihood is desirable.\n\\[\n\\begin{aligned}\n\\mathcal{\\ell}(\\boldsymbol{\\beta}, \\sigma^2 | \\mathbf{y}, \\mathbf{X}) &= \\log \\left( \\mathcal{L}(\\boldsymbol{\\beta}, \\sigma^2 | \\mathbf{y}, \\mathbf{X}) \\right) \\\\\n&= -\\dfrac{N}{2} \\log (2 \\pi) - N \\log (\\sigma) -\\dfrac{1}{2\\sigma^2} \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right)' \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right)\n\\end{aligned}\n\\]\nThen we taking the partial derivatives with respect to \\(\\beta\\) and \\(\\sigma^2\\).\n\\[\n\\begin{aligned}\n\\dfrac{\\partial \\mathcal{\\ell}}{\\partial \\boldsymbol{\\beta}'} &= -\\dfrac{1}{2\\sigma^2} \\left( -2\\mathbf{X}' \\mathbf{y} + 2 \\mathbf{X}' \\mathbf{X}\\boldsymbol{\\beta}\\right) = 0\\\\\n\\dfrac{\\partial \\mathcal{\\ell}}{\\partial \\sigma^2} &= -\\dfrac{N}{2}\\dfrac{1}{\\sigma^2} + \\dfrac{1}{2 \\sigma^4} \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right)' \\left( \\mathbf{y} - \\mathbf{X} \\boldsymbol{\\beta}\\right) = 0\n\\end{aligned}\n\\]\nFor our estimator \\(\\beta\\), we get the following results after some manipulation.\n\\[\n\\begin{aligned}\n\\widehat{\\boldsymbol{\\beta}}_{\\text{ML}} &= \\left( \\mathbf{X}' \\mathbf{X}\\right)^{-1} \\mathbf{X}' \\mathbf{Y}\n\\end{aligned}\n\\]\nThen we find the variance estimator in the following equation:\n\\[\n\\begin{aligned}\n\\widehat{\\sigma}^2 &= \\dfrac{1}{N}\\left( \\mathbf{y} - \\mathbf{X} \\widehat{\\boldsymbol{\\beta}}_{\\text{ML}}\\right)' \\left( \\mathbf{y} - \\mathbf{X} \\widehat{\\boldsymbol{\\beta}}_{\\text{ML}}\\right)\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "ts.html#white-noise-process",
+    "href": "ts.html#white-noise-process",
+    "title": "10  Time Series",
+    "section": "10.1 White noise process",
+    "text": "10.1 White noise process\nThe concept of white noise is used to characterize a time series. Moreover, a white noise is considered as a random variable which is independent and identically distributed. We will represent a random variable by \\(\\epsilon_t\\), if it is white noise.\n\\[\n\\epsilon_t \\sim N(0,\\sigma_{\\epsilon}^2)\n\\]\nHere are three characteristics, making a random variable white noise.\n\n\\(E(\\epsilon_t)=E(\\epsilon_t \\mid \\epsilon_{t-1},\\epsilon_{t-2}...)\\)\n\\(E(\\epsilon_t \\epsilon_{t-j})=0\\)\n\\(Var(\\epsilon_t)=Var(\\epsilon_t \\mid \\epsilon_{t-1},\\epsilon_{t-2},...)=\\sigma_{\\epsilon}^2\\)\n\nThe first and second characteristic is the absence of any serial correlation or predictability. The third characteristic is conditional homoskedasticity or a constant conditional variance."
+  },
+  {
+    "objectID": "ts.html#autoregressive-moving-average-models",
+    "href": "ts.html#autoregressive-moving-average-models",
+    "title": "10  Time Series",
+    "section": "10.2 Autoregressive Moving average models",
+    "text": "10.2 Autoregressive Moving average models\n\n10.2.1 Autoregressive Models\nAn autoregressive model makes it possible to express a random variable as a function of itself with a lag or several. Thus, an autoregressive model of order \\(p\\) can be written as follow. \\[\ny_{t} = c + \\phi_{1}y_{t-1} + \\phi_{2}y_{t-2} + \\dots + \\phi_{p}y_{t-p} + \\varepsilon_{t},\n\\] Where \\(\\varepsilon_{t}\\) is a white noise. We refer to this as an \\(AR(q)\\) model, an autoregressive model of order \\(q\\).\n\n\n10.2.2 Moving average models\nIn the case of a moving-average model, a random variation will be a function of the error term generated by the model in the previous period.\n\\[\ny_{t} = c + \\varepsilon_t + \\theta_{1}\\varepsilon_{t-1} + \\theta_{2}\\varepsilon_{t-2} + \\dots + \\theta_{q}\\varepsilon_{t-q}\n\\]\nWhere \\(\\varepsilon_{t}\\) is a white noise. We refer to this as an \\(MA(q)\\) model, a moving average model of order \\(q\\).\n\n\n10.2.3 Autoregressive moving-average models\nThe Autoregressive moving-average models is only a combination of the Autoregressive models with the moving-average model.\n\\[\ny_{t} = c + \\phi_{1}y_{t-1} +\\dots + \\phi_{p}y_{t-p}+\\varepsilon_t + \\theta_{1}\\varepsilon_{t-1} + \\dots + \\theta_{q}\\varepsilon_{t-q}\n\\]\nWhere \\(\\varepsilon_{t}\\) is a white noise. We refer to this as an \\(ARMA(q)\\) model, an Autoregressive moving average model of order \\(q\\)."
+  }
+]
